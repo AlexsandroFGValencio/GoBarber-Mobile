@@ -1210,12 +1210,6 @@
   dependencies:
     type-detect "4.0.8"
 
-"@types/@react-native-community/async-storage":
-  version "1.11.0"
-  resolved "https://codeload.github.com/react-native-community/async-storage/tar.gz/ae5a042e1fff44cd60bf9169948e8cf94fab7670"
-  dependencies:
-    deep-assign "^3.0.0"
-
 "@types/babel__core@^7.1.7":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.9.tgz#77e59d438522a6fb898fa43dc3455c6e72f3963d"
