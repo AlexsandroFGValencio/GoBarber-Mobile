@@ -61,6 +61,8 @@ export const AuthProvider: React.FC = ({ children }) => {
 
   const signOut = useCallback(async () => {
     await AsyncStorage.multiRemove(['@GoBarber:token','@GoBarber:user']);
+
+    setData({} as AuthState);
   }, []);
 
   return (
